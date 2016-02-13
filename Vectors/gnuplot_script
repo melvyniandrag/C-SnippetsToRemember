@@ -1,0 +1,13 @@
+set title "Slow Vector Scaling"
+set xlabel "N^2"
+set ylabel "seconds"
+set term png
+set output "slow.png"
+plot "vec_slow.dat" with lines
+
+set title "Fast Vector Scaling"
+set xlabel "N"
+set ylabel "seconds"
+set term png
+set output "fast.png"
+plot "vec_fast.dat" with lines

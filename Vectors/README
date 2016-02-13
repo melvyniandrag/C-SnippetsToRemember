@@ -1,0 +1,1 @@
+This is a simple bit of code which shows the scaling behavior of two different memory reallocation schemese for a growing vector container. It is better to scale by doubling the array when capacity is reached, other wise the runtime becomes quadratic instead of linear.
